@@ -2,6 +2,10 @@ package com.javatest.test.algorithms.sort;
 
 import com.javatest.algorithms.sort.MergeSort;
 
+/**
+ * Testing the {@link MergeSort Merge Sort} implementation
+ * @author Pradeep Kumar
+ */
 public class MergeSortTest {
 	public static void main(String[] args) {
 		MergeSort<Integer> mergeSortInt = new MergeSort<Integer>();

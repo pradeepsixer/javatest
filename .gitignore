@@ -1,0 +1,6 @@
+#Files opened with gedit have a clone file ending with tilde (~) and should be ignored
+/**/*~
+# Class files
+/bin/
+#Eclipse classpath
+/.classpath

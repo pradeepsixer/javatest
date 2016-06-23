@@ -10,14 +10,17 @@ import java.util.Arrays;
  *
  * @param <T> The Data Type of the elements to be sorted. Such data type must implement the {@link Comparable} interface
  */
-public class MergeSort<T extends Comparable<T>> {
+public class MergeSort {
+	private MergeSort() {
+		// Prevent Instantiation
+	}
 
 	/**
 	 * Recursively sort the input elements.
 	 * @param input The input array containing the elements to be sorted.
 	 * @return Array containing the sorted elements.
 	 */
-	public T[] sort(T[] input) {
+	public static <T extends Comparable<T>> T[] sort(T[] input) {
 		/*
 		 * Algorithm:
 		 * 1. If the number of elements is 1, then it is already sorted. just return the input

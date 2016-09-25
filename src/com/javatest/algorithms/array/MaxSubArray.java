@@ -52,9 +52,7 @@ public class MaxSubArray {
 		 * @param sourceObj The source SubArray object from which the values are to be copied
 		 */
 		public void copy(SubArray sourceObj) {
-			this.startIndex = sourceObj.startIndex;
-			this.endIndex = sourceObj.endIndex;
-			this.sum = sourceObj.sum;
+			this.setValues(sourceObj.startIndex, sourceObj.endIndex, sourceObj.sum);
 		}
 
 		@Override
